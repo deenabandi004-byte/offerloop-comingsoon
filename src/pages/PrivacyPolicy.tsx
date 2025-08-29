@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
       <main className="container mx-auto px-6 py-12 max-w-4xl">
         <div className="prose prose-gray dark:prose-invert max-w-none">
           <h1 className="text-4xl font-bold mb-2">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-8">Last Updated: [Insert Date]</p>
+          <p className="text-muted-foreground mb-8">Last Updated: 29th August, 2025</p>
 
           <p className="text-lg leading-relaxed mb-8">
             Welcome to Offerloop.ai ("Offerloop.ai," "we," "us," or "our"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our application and services (collectively, the "Services"). Please read this Privacy Policy carefully. If you do not agree with the terms, please do not use the Services.
