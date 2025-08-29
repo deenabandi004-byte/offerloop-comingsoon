@@ -11,6 +11,22 @@ const Index = () => {
         <div className="brand-orb animate-orb w-[80vw] h-[80vw] max-w-[900px] max-h-[900px] mx-auto mt-[-15vh]" />
       </div>
 
+      {/* Top left navigation links */}
+      <nav className="absolute top-6 left-6 z-10 flex flex-col gap-2">
+        <a 
+          href="#" 
+          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-1"
+        >
+          ↑ Up
+        </a>
+        <a 
+          href="#" 
+          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-1"
+        >
+          ↓ Down
+        </a>
+      </nav>
+
       <section className="container px-6">
         <div className="mx-auto max-w-2xl text-center space-y-5">
           <div className="relative inline-block mx-auto">
@@ -24,7 +40,7 @@ const Index = () => {
               className="relative rounded-xl animate-fade-in mix-blend-multiply dark:mix-blend-screen opacity-95 hover:opacity-100 transition-opacity duration-300"
             />
           </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-brand animate-fade-in" style={{ animationDelay: "60ms" }}>Offerloop.ai — Coming Soon</h1>
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-brand animate-fade-in" style={{ animationDelay: "60ms" }}>Offerloop.ai â€" Coming Soon</h1>
           <p className="text-lg sm:text-xl text-muted-foreground/90 leading-relaxed animate-fade-in" style={{ animationDelay: "120ms" }}>The future of personalized outreach is almost here.</p>
 
           <div className="pt-2 animate-fade-in" style={{ animationDelay: "180ms" }}>
