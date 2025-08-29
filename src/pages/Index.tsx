@@ -11,19 +11,19 @@ const Index = () => {
         <div className="brand-orb animate-orb w-[80vw] h-[80vw] max-w-[900px] max-h-[900px] mx-auto mt-[-15vh]" />
       </div>
 
-      {/* Top left navigation links */}
+      {/* Top left legal links */}
       <nav className="absolute top-6 left-6 z-10 flex flex-col gap-2">
         <a 
-          href="#" 
-          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-1"
+          href="/privacy-policy" 
+          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
         >
-          ↑ Up
+          Privacy Policy
         </a>
         <a 
-          href="#" 
-          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-1"
+          href="/terms-of-service" 
+          className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
         >
-          ↓ Down
+          Terms of Service
         </a>
       </nav>
 
@@ -40,7 +40,7 @@ const Index = () => {
               className="relative rounded-xl animate-fade-in mix-blend-multiply dark:mix-blend-screen opacity-95 hover:opacity-100 transition-opacity duration-300"
             />
           </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-brand animate-fade-in" style={{ animationDelay: "60ms" }}>Offerloop.ai â€" Coming Soon</h1>
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-brand animate-fade-in" style={{ animationDelay: "60ms" }}>Offerloop.ai — Coming Soon</h1>
           <p className="text-lg sm:text-xl text-muted-foreground/90 leading-relaxed animate-fade-in" style={{ animationDelay: "120ms" }}>The future of personalized outreach is almost here.</p>
 
           <div className="pt-2 animate-fade-in" style={{ animationDelay: "180ms" }}>
@@ -50,6 +50,25 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer with legal links */}
+      <footer className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
+        <div className="flex items-center gap-4 text-sm text-muted-foreground/70">
+          <a 
+            href="/privacy-policy" 
+            className="hover:text-muted-foreground transition-colors duration-200"
+          >
+            Privacy Policy
+          </a>
+          <span>•</span>
+          <a 
+            href="/terms-of-service" 
+            className="hover:text-muted-foreground transition-colors duration-200"
+          >
+            Terms of Service
+          </a>
+        </div>
+      </footer>
     </main>
   );
 };
